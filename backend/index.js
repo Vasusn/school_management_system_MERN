@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000
 
 dotenv.config();
 app.use(cors({
-    origin: 'https://school-management-system-mern-frontend.vercel.app'
+    origin: '*'
 }));
 // app.use(bodyParser.json({ limit: '10mb', extended: true }))
 // app.use(bodyParser.urlencoded({ limit: '10mb', extended: true }))
